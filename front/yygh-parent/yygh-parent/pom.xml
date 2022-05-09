@@ -10,7 +10,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.7</version>
+        <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.atguigu.yygh</groupId>
@@ -38,7 +38,7 @@
     </properties>
 
     <!--配置dependencyManagement锁定依赖的版本-->
-    <dependencyManagement>
+<!--    <dependencyManagement>-->
         <dependencies>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
@@ -125,6 +125,6 @@
                 <version>${jodatime.version}</version>
             </dependency>
         </dependencies>
-    </dependencyManagement>
+<!--    </dependencyManagement>-->
 </project>
 
