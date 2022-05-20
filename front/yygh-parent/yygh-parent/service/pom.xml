@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>com.atguigu.yygh</groupId>
-            <artifactId>model</artifactId>
+            <artifactId>common-util</artifactId>
             <version>1.0</version>
         </dependency>
         <dependency>
